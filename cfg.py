@@ -5,6 +5,7 @@ from nltk.draw.tree import TreeView, TreeWidget
 from nltk.parse.generate import generate, demo_grammar
 from nltk.draw.util import CanvasFrame
 
+
 def save_tree(tree):
     cf = CanvasFrame()
     tc = TreeWidget(cf.canvas(),tree)
