@@ -56,7 +56,7 @@ parser = nltk.ChartParser(g)
 for sentence in generate(g, n=200, depth = 4):
    print(' '.join(sentence))
 
-sent = 'I prefer the hotel'.split()
+sent = 'I book the flight'.split()
 #print all possible parses of sentence
 for tree in parser.parse(sent):
     print(tree)
